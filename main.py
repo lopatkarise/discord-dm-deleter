@@ -107,7 +107,7 @@ else:
     if args.prefix is not None:
         prefix = args.prefix
     else:
-        prefix = int(input("Please input a prefix (leave blank for the default '#DEL'): "))
+        prefix = str(input("Please input a prefix (leave blank for the default '#DEL'): "))
         if prefix == "":
             prefix = "#DEL"
 # Serverpurge prefix
